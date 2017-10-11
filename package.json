@@ -1,0 +1,27 @@
+{
+  "name": "gamma-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/App.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "mocha"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "email-validator": "^1.0.4",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7",
+    "randomstring": "^1.1.4",
+    "superagent": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "moment": "^2.13.0",
+    "tingodb": "^0.4.2"
+  }
+}
